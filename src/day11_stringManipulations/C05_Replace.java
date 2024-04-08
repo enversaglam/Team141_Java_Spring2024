@@ -12,6 +12,7 @@ public class C05_Replace {
         System.out.println(str.replace("candir", "guzeldir")); // Java guzeldir
 
         // a'lari yok edin
+        
         System.out.println(str.replace("a", "")); // Jv cndir
 
         // b'leri B yapin
@@ -29,11 +30,14 @@ public class C05_Replace {
         // Kullanicidan bir metin isteyin
         // ve metinde varsa ilk rakam'i * yapin
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Lutfen bir cumle giriniz...");
-        String cumle = scanner.nextLine();
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Bir Cumle giriniz");
+
+        String cumle = scan.nextLine();
 
         System.out.println(cumle.replaceFirst("\\d", "*"));
+
 
 
 

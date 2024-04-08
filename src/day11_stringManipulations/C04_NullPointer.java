@@ -40,7 +40,7 @@ public class C04_NullPointer {
 
         System.out.println(str3 + str4); // nullJava
 
-        // System.out.println(str3.length()); // NullPointerException
+        System.out.println(str3.length()); // NullPointerException
 
         // System.out.println(str3.isEmpty()); // NullPointerException
 
