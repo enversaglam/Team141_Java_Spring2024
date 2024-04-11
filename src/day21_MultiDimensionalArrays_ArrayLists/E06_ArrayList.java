@@ -14,9 +14,14 @@ public class E06_ArrayList {
         Scanner scanner = new Scanner(System.in);
         String isim = "";
 
-        while(isim.equalsIgnoreCase("q")){
+        while(! isim.equalsIgnoreCase("q")){
             System.out.println("Listeye eklemek icin isim giriniz... \nbitirmek icin q'ya basiniz...");
             isim = scanner.nextLine();
+
+            if (! isim.equalsIgnoreCase("q")){
+                isimler.add(isim);
+            }
         }
+        System.out.println("Girilen Isimler : "+isimler);
     }
 }
