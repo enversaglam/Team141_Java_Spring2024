@@ -10,7 +10,7 @@ public class E05_AyniIndexdekilerinToplami {
         //		input :      int[][] arr =  {{3,4,5}, {2,3,6,7}};
         //	    output:                       [5, 7, 11]
 
-        int[][] arr =  {{3,4,5,9,4}, {2,3,6,7}};
+        int[][] arr =  {{3,4,5,1,4}, {2,3,6,7}};
 
         // once yeni olusturacagimiz array'in uzunlugunu belirlemek icin
         // verilen array'lerden kisa olanin length'ini bulmaliyiz
