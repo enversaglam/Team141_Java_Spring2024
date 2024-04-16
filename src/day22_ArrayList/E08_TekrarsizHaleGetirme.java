@@ -26,7 +26,7 @@ public class E08_TekrarsizHaleGetirme {
                 uniqueList.add(arr[i]);
             }
         }
-        //System.out.println("uniqueList : "+uniqueList);
+        //System.out.println("uniqueList : "+uniqueList); aaa
         int[] yeniArr = new int[uniqueList.size()];
 
         for (int i = 0; i < yeniArr.length; i++) {
