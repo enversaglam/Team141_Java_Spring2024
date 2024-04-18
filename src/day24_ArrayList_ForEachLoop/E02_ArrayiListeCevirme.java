@@ -48,6 +48,36 @@ public class E02_ArrayiListeCevirme {
         
         System.out.println("Array e yapilan atamadan sonra Array     : "+ Arrays.toString(sayilar));
         System.out.println("Array e yapilan atamadan sonra sayiList2 : " +sayiList2);
+
+        //Chat GPT önerisi
+        System.out.println("Chat GPT önerisi -----------");
+
+        // Örnek bir dizi
+        String[] array = {"Java", "Python", "C++", "JavaScript"};
+
+        // Diziyi bir List'e dönüştürme
+        List<String> list = Arrays.asList(array);
+
+        // Elde edilen List'i yazdırma
+        System.out.println("List: " + list);
+
+        // İsterseniz List'teki öğeleri değiştirebilirsiniz
+        list.set(0, "Ruby");
+        System.out.println("Değiştirilmiş List: " + list);
+
+        // Ancak, bu durumda orijinal dizide değişiklikler yapılabilir
+        System.out.println("Orijinal Dizi: " + Arrays.toString(array));
+
+        // Eğer değişmez bir List istiyorsanız, ArrayList'e dönüştürebilirsiniz
+        ArrayList<String> arrayList = new ArrayList<>(Arrays.asList(array));
+        // Şimdi bu ArrayList üzerinde değişiklikler yapılabilir ve orijinal dizi etkilenmez
+        arrayList.add("bisey");
+        System.out.println("Array List : "+ arrayList);
+        System.out.println("Array : "+ Arrays.toString(array));
+        array[0] = "Kava";
+        System.out.println("Array e ekleme yaptiktan sonraki Array List : "+ arrayList);
+        System.out.println("Array e ekleme yaptiktan sonraki Array : "+ Arrays.toString(array));
+        System.out.println("Array e ekleme yaptiktan sonraki List : "+ list);
         
     }
 }
