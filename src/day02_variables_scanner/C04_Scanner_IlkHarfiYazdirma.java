@@ -27,6 +27,7 @@ public class C04_Scanner_IlkHarfiYazdirma {
         char ilkHarf = scanner.nextLine().toUpperCase().charAt(0);
 
         System.out.println("Ikinci metin ilk harf : " + ilkHarf);
+        
 
     }
 }

@@ -19,7 +19,7 @@ public class C06_ForEachLoop {
         while (harf.length() != 1){
             System.out.println("Lutfen bir harf giriniz");
             harf= scanner.nextLine();
-        }
+        }   
 
         String[] harfArrayi = cumle.split(""); // [A, l, i,  , t, o, p, u,  , t, u, t]
 

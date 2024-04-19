@@ -11,6 +11,27 @@ public class E06_ForEachLoop {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Bir cümle giriniz : ");
         String cumle = scanner.nextLine();
-        System.out.println("Bir harf giriniz : ");
+        String harf = "";
+
+        while (harf.length()!= 1) {
+            System.out.println("Lütfen bir harf girin ..");
+            harf = scanner.nextLine();
+        }
+
+        String [] harfArrayi = cumle.split("");
+
+        int sayac = 0;
+
+        for (String eachHarf : harfArrayi) {
+            if(eachHarf.equalsIgnoreCase(harf)){
+                sayac ++;
+            }
+        }
+        if(sayac==0){
+            System.out.println(harf+" Harfi "+cumle+" cümlesinde kullanilmamistir");
+        } else {
+            System.out.println(harf+" Harfi "+cumle+" cümlesinde "+sayac+" kere kullanilmamistir");
+        }
+
     }
 }
