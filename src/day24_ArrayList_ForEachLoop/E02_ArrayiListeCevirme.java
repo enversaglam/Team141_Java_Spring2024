@@ -49,7 +49,7 @@ public class E02_ArrayiListeCevirme {
         System.out.println("Array e yapilan atamadan sonra Array     : "+ Arrays.toString(sayilar));
         System.out.println("Array e yapilan atamadan sonra sayiList2 : " +sayiList2);
 
-        //Chat GPT önerisi
+        //Chat GPT önerisi -------------------------------
         System.out.println("Chat GPT önerisi -----------");
 
         // Örnek bir dizi
